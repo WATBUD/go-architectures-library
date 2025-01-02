@@ -1,0 +1,6 @@
+@echo off
+echo bat:Updating Swagger docs...
+swag init -g ./cmd/web/main.go
+
+echo Building application...
+go run ./cmd/web/main.go

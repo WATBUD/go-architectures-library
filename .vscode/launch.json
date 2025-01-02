@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            //"program": "${file}",
+            "program": "${fileDirname}", // 使用當前文件所在的文件夾
+            //"program": "${workspaceFolder}",
+            "env": {},
+            "args": []
+        }
+    ]
+}
